@@ -2,8 +2,9 @@ name: Hello World
 push: on
 
 jobs:
-  runs-on: ubuntu-latest
-  
-  steps:
-    - name: echo text
-      run: echo "Hello, world!"
+  job1:
+      runs-on: ubuntu-latest
+      steps:
+        - name: echo text
+          run: echo "Hello, world!"
+          
